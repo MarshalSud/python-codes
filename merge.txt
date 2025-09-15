@@ -1,3 +1,11 @@
 this file is to check the merge conflicts 
+<<<<<<< Updated upstream
 meghana
 pappu
+=======
+
+pappu
+
+piyu 
+
+>>>>>>> Stashed changes
