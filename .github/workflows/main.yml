@@ -4,5 +4,12 @@ jobs:
   fetchfiles:
     runs-on: ubuntu-latest
     steps:
-      - name: fetch the repo 
-        run: echo "fetching the repo..."
+      - name: start fetch the repo 
+        run: echo "initializing for fetching"
+      - name: fetching now
+        uses: actions/checkout@v5
+        with: 
+          sparse-checkout: |
+            name.py
+      - name: run file
+        run: python3 name.py
