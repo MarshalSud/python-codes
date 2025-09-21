@@ -4,7 +4,6 @@ on:
     types:
       - opened
   workflow_dispatch:
-  push:
 jobs:
   fetchfiles:
     runs-on: ubuntu-latest
