@@ -1,0 +1,8 @@
+name: run python file 
+on: push
+jobs:
+  fetchfiles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch the repo 
+        run: echo"fetching the repo..."
