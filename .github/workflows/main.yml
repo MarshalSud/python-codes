@@ -1,5 +1,5 @@
 name: run python file 
-on: push
+on: [push,workflow_dispatch]
 jobs:
   fetchfiles:
     runs-on: ubuntu-latest
