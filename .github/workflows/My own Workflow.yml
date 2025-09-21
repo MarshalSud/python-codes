@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run it motherfucker 
-        run : echo "run it motherfucker" |
+        run : |
+              echo "run it motherfucker" 
               echo "i hope you doing good.."
   
