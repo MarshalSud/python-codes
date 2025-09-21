@@ -1,0 +1,9 @@
+name: My Own Workflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run it motherfucker 
+        run : echo "run it motherfucker"
+  
