@@ -14,4 +14,4 @@ jobs:
       - name: run file
         run: python3 name.py
       - name: expression testing
-        run: echo {{github}}
+        run: echo "${{toJSON(github) }}"
