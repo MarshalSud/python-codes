@@ -1,5 +1,10 @@
 name: run python file 
-on: [push,workflow_dispatch]
+on: 
+  pull_request:
+    types:
+      - opened
+  workflow_dispatch:
+  push:
 jobs:
   fetchfiles:
     runs-on: ubuntu-latest
